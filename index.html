@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://guide.skilljapan.info/cdn/bootstrap.min.css">
+    <script src="http://guide.skilljapan.info/cdn/bootstrap.bundle.min.js"></script>
+    <script src="http://guide.skilljapan.info/cdn/fontawsome.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>m4</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand l-header__logo" href="#"><img class="l-header__logo" src="./images/logo/logomark_white.png" alt=""></a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active text-white" href="#">Home</a>
+                  <a class="nav-link  text-white" href="#info">お知らせ</a>
+                  <a class="nav-link  text-white" href="#discription">あらすじ</a>
+                  <a class="nav-link text-white" href="#play">プレイ手順</a>
+                  <a class="nav-link text-white" href="#download">ダウンロード</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="c-main-view">
+        <div class="c-main-view__back">
+            <img class="c-main-view__player move0" src="./images/player01.gif" alt="">
+            <img class="c-main-view__flag" src="./images/flag01.gif" alt="">
+        </div>
+        <div class="c-main-view__text">
+            <span>謎を</span>
+            <span>解け</span>
+        </div>
+        <div class="c-main-view__download"><a href="./dummy.html" class="btn btn-outline-light">今すぐプレイ！</a></div>
+
+    </div>
+    <div class="c-main-view__bottom"></div>
+    
+    <section class="c-info" id="info">
+        <div class="c-info__inner">
+            <h2>Info</h2>
+            <div>
+                <ul>
+                    <li><a href="./dummy.html" class="text-white">【メンテナンス】11/30 定期メンテナンス</a></li>
+                    <li><a href="./dummy.html" class="text-white">【重要】対応端末変更のお知らせ</a></li>
+                    <li><a href="./dummy.html" class="text-white">【不具合】新モード追加時の不具合修正について</a></li>
+                    <li><a href="./dummy.html" class="text-white">【イベント】マンスリータイムアタック開催！</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="c-discription container l-section" id="discription">
+        <div class="c-discription__inner">
+            <h2>あらすじ</h2>
+            <div class="c-discription__contents">
+                <div class="text1">勇者が閉じ込められたのは魔法の箱と謎が満ちる空間</div>
+                <div class="text2">剣を失ったいま試されるのは知恵と勇気、そしてスピードである</div>
+                <div class="text3">無尽蔵に増え続けるフロアを走り抜け、謎を解き明かせ……！</div>
+                <div class="img">
+                    <img src="./images/player01.gif" alt="">
+                </div>
+                <div class="img">
+                    <img src="./images/block01.png" alt="">
+                </div>
+                <div class="img">
+                    <img src="./images/flag01.gif" alt="">
+                </div>
+                <div class="img">
+                    <img src="./images/wall01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="c-play container l-section" id="play">
+        <div class="c-play__inner">
+            <h2>プレイ手順</h2>
+            <div class="c-play__contents">
+                <input type="radio" id="play1" name="play" checked>
+                <input type="radio" id="play2" name="play">
+                <input type="radio" id="play3" name="play">
+                <div class="c-play__labels">
+                    <label for="play1">1.プロフィール設定</label>
+                    <label for="play2">2.ゴールをめざせ！</label>
+                    <label for="play3">3.ランキング機能</label>
+                </div>
+                <div class="c-play__content play-contents-1">
+                    <h3>1.プロフィール設定</h3>
+                    <div>
+                        <div class="c-play__text">
+                            <p>ユーザー登録をしたら4文字以上のニックネームを設定！</p>
+                            <p>ここで設定したニックネームがランキングに掲載されるぞ！</p>
+                            <div class="mini-text">
+                                ※公序良俗に反するニックネームは設定しないでください。
+                            </div>
+                            <div class="mini-text">
+                                ユーザーネームを変更することも可能です。
+                            </div>
+                        </div>
+                        <div class="c-play__content-img">
+                            <img src="./images/capture_3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="c-play__content play-contents-2">
+                    <h3>2.ゴールをめざせ！</h3>
+                    <div>
+                        <div class="c-play__text">
+                            <p>プレイヤーを上下左右に移動させ、箱を押しのけながら旗のあるゴールを目指そう！</p>
+                            <p>手詰まりになってしまったら初期配置に戻すことができますが、タイムは進み続けるぞ！</p>
+                            <p>ステージはアップデートで毎週100ステージ追加予定！</p>
+                            <div class="mini-text">
+                                プレー開始段階ではパズルの難易度は「Easy」「Normal」のみですが、特定のステージをクリアすることで、さらに高難易度のモードが追加されます。
+                            </div>
+                        </div>
+                        <div class="c-play__content-img">
+                            <img src="./images/capture_4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="c-play__content play-contents-3">
+                    <h3>3.ランキング機能</h3>
+                    <div>
+                        <div class="c-play__text">
+                            <p>ゴールタイム上位はランキングに掲載されます。</p>
+                            <p>各ステージのランキング、難易度内の全ステージの合計タイムランキングがそれぞれ集計されるぞ！</p>
+                            <p class="big-text">目指せトップランカー！</p>
+                            <div class="mini-text">
+                                ※公序良俗に反するニックネームは設定しないでください。
+                            </div>
+                            <div class="mini-text">
+                                ユーザーネームを変更することも可能です。
+                            </div>
+                        </div>
+                        <div class="c-play__content-img">
+                            <img src="./images/capture_5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="c-download l-section" id="download">
+        <h2>謎の果てを目指そう！！</h2>
+        <div class="c-download__inner">
+            <div>「Box Adventure」はPC、スマートフォンそれぞれのアプリストアからダウンロードし、インストールすることで遊ぶことが出来ます。</div>
+            <a href="dummy.html" class="btn btn-lg btn-light">ダウンロードはこちら</a>
+        </div>
+    </section>
+
+    <footer class="l-footer">
+        <div class="d-flex links">
+            <a class="px-2 nav-link text-white" href="#">Home</a>
+            <a class="px-2 nav-link text-white" href="#info">お知らせ</a>
+            <a class="px-2 nav-link text-white" href="#discription">あらすじ</a>
+            <a class="px-2 nav-link text-white" href="#play">プレイ手順</a>
+            <a class="px-2 nav-link text-white" href="#download">ダウンロード</a>
+        </div>
+        <div class="l-footer__bottom">
+            <div class="l-footer__logo">
+                <img src="./images/logo/logomark_white.png" alt="">
+            </div>
+            <div>© 2023 Grand field Entertainment Inc.</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 320">
+  <defs>
+    <style>
+    </style>
+    <image id="image" width="64" height="64" xlink:href="../../../../materials/m4/images/wall01.png"/>
+  </defs>
+  <use xlink:href="#image"/>
+  <use transform="translate(0 64)" xlink:href="#image"/>
+  <use transform="translate(0 128)" xlink:href="#image"/>
+  <use transform="translate(64)" xlink:href="#image"/>
+  <use transform="translate(128)" xlink:href="#image"/>
+  <use transform="translate(192 64)" xlink:href="#image"/>
+  <use transform="translate(128 128)" xlink:href="#image"/>
+  <use transform="translate(64 128)" xlink:href="#image"/>
+  <use transform="translate(192 192)" xlink:href="#image"/>
+  <use transform="translate(128 256)" xlink:href="#image"/>
+  <use transform="translate(64 256)" xlink:href="#image"/>
+  <use transform="translate(0 256)" xlink:href="#image"/>
+  <use transform="translate(0 192)" xlink:href="#image"/>
+</svg>
